@@ -19,6 +19,3 @@ jobs:
     - name: Test with Pytest
       run: |
         make test
-    - name: Format code with python black
-      run: |
-        make format
