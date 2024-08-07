@@ -4,6 +4,7 @@ from flask import jsonify
 app=Flask(__name__)
 @app.route('/')
 def hello():
+    """Return a frinedly HTTP greeting."""
     print("I am inside hello world")
     return "Hello world"
 
